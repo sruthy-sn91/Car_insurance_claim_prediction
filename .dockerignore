@@ -1,0 +1,15 @@
+# Exclude Jupyter notebooks and development files
+*.ipynb
+
+# Exclude large CSV datasets if not needed for prediction
+Car_Insurance_Claim.csv
+
+# Exclude image files that are not used (e.g., screenshots)
+Screenshot*.png
+
+# Exclude Python caches and logs
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.log
