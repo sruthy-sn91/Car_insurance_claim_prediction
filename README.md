@@ -79,15 +79,20 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/sruthy-sn91/car_insurance_claim_prediction.git
 cd car_insurance_claim_prediction
-
+'''
 ### 2️⃣ Create a Virtual Environment
+```bash
 python -m venv venv
 source venv/bin/activate  # For Mac/Linux
 venv\Scripts\activate     # For Windows
+'''
 ### 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
 ### 4️⃣ Run the Flask Application
+```bash
 python app.py
+'''
 The application will be available at http://127.0.0.1:5000/
 
 🛠️ Usage
