@@ -94,7 +94,7 @@ GitHub Actions (Optional) → Automated deployment pipeline
 
 ## ⚙️ Installation & Setup
 
-Follow these steps to run the project locally:
+### Running the project locally
 
 1️⃣ Clone the Repository
 git clone https://github.com/sruthy-sn91/car_insurance_claim_prediction.git
@@ -111,7 +111,7 @@ python app/app.py
 
 Visit http://127.0.0.1:5000/ in your browser.
 
-🐳 Running with Docker
+### 🐳 Running with Docker
 
 1️⃣ Build Docker Image
 docker build -t insurance-claim .
@@ -122,7 +122,7 @@ docker run -d -p 5000:5000 -v $(pwd)/models:/app/models insurance-claim
 3️⃣ Access the UI
 Visit http://localhost:5000/ in your browser.
 
-☁️ Deploying to AWS EC2
+### ☁️ Deploying to AWS EC2
 
 1️⃣ Launch an EC2 Instance
 Select Ubuntu 22.04 LTS
@@ -148,6 +148,10 @@ curl http://127.0.0.1:5000/
 
 ✅ If successful, open the API in a browser:
 http://your-ec2-public-ip:5000/
+
+![PHOTO-2025-03-19-15-25-51](https://github.com/user-attachments/assets/7942be4d-003f-460d-87d1-1867dddde0b5)
+
+
 
 ## 🛠️ Usage
 
