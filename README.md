@@ -40,7 +40,6 @@ This project predicts whether a customer will file a car insurance claim based o
 The dataset contains customer information including:
 - **Demographics:** Age, gender, marital status, etc.
 - **Vehicle Details:** Type, model year, previous claims
-- **Policy Details:** Premium amount, coverage type
 - **Driving History:** Past violations, accident history
 
 ---
@@ -184,18 +183,24 @@ The explainability of the model was analysed using SHAP and LIME.
 Contributions are welcome! Follow these steps:
 
 Fork the repo
+
 Create a feature branch:
 git checkout -b feature-name
+
 Commit changes:
 git commit -m "Added new feature"
+
 Push to GitHub:
 git push origin feature-name
+
 Create a Pull Request (PR)
 
 ## 📬 Contact
 
 📧 Email: sruthy.sn91@gmail.com
+
 🔗 GitHub: [@sruthy-sn91](https://github.com/sruthy-sn91)
+
 🔗 LinkedIn: [Profile](https://www.linkedin.com/in/sruthy-sreerag-nath/)
 
 🔥 If you found this project helpful, don't forget to ⭐ the repository! 🚀
