@@ -1,12 +1,10 @@
 # 🚗 Car Insurance Claim Prediction
 
-![Car Insurance Claim Prediction](https://via.placeholder.com/1200x400?text=Car+Insurance+Claim+Prediction)  
+![istockphoto-856956280-612x612](https://github.com/user-attachments/assets/e969aeac-2bb8-4028-9b96-a751631cdb08)
 
 *A machine learning-based prediction model for insurance companies to assess the likelihood of a customer making an insurance claim.*
 
 ---
-
-
 
 ## 📌 Table of Contents
 - [Overview](#overview)
@@ -85,7 +83,7 @@ GitHub Actions (Optional) → Automated deployment pipeline
 
 ## 📸 UI Screenshots
 ### 🔹 Homepage
-![Homepage](Home%20Page.png)
+<img width="1312" alt="Home page" src="https://github.com/user-attachments/assets/2b34fb29-d075-4794-924a-330f67986f60" />
 
 ### 🔹 No Claim Prediction Output
 ![No Claim](No%20claim.png)
@@ -100,7 +98,7 @@ GitHub Actions (Optional) → Automated deployment pipeline
 Follow these steps to run the project locally:
 
 1️⃣ Clone the Repository
-git clone [https://github.com/your-github-username/insurance-claim-api.git](https://github.com/sruthy-sn91/car_insurance_claim_prediction.git)
+git clone https://github.com/sruthy-sn91/car_insurance_claim_prediction.git
 cd car_insurance-claim_prediction
 
 2️⃣ Install Dependencies
@@ -117,10 +115,10 @@ Visit http://127.0.0.1:5000/ in your browser.
 🐳 Running with Docker
 
 1️⃣ Build Docker Image
-docker build -t insurance-api .
+docker build -t insurance-claim .
 
 2️⃣ Run Docker Container
-docker run -d -p 5000:5000 -v $(pwd)/models:/app/models insurance-api
+docker run -d -p 5000:5000 -v $(pwd)/models:/app/models insurance-claim
 
 3️⃣ Access the UI
 Visit http://localhost:5000/ in your browser.
@@ -141,7 +139,7 @@ sudo systemctl start docker
 sudo systemctl enable docker
 
 4️⃣ Clone Repo & Run Docker on EC2
-git clone [https://github.com/your-github-username/insurance-claim-api.git](https://github.com/sruthy-sn91/car_insurance_claim_prediction.git)
+git clone https://github.com/sruthy-sn91/car_insurance_claim_prediction.git
 cd car_insurance_claim_prediction
 sudo docker build -t insurance-claim .
 sudo docker run -d -p 5000:5000 -v $(pwd)/models:/app/models insurance-claim
@@ -160,9 +158,13 @@ Click "Predict" to get claim probability.
 ## 📊 Model Performance
 
 Accuracy: 88%
+
 Precision: 87%
+
 Recall: 89%
+
 F1-score: 88%
+
 ROC-AUC Score : 0.88
 
 Algorithm Used: Random Forest
@@ -171,6 +173,7 @@ Multiple models such as Logistic Regression, Decision Tree, Random Forest, Gradi
 Model evaluation is available in the car_insurance_pred.ipynb Jupyter Notebook.
 
 The explainability of the model was analysed using SHAP and LIME.
+
 ![image](https://github.com/user-attachments/assets/3232f1ff-46bd-4533-ab9d-ad238346514a)
 
 <img width="1039" alt="Screenshot 2025-03-19 at 2 20 07 PM" src="https://github.com/user-attachments/assets/c93730f0-e2a0-4576-84a4-190711f74ab6" />
